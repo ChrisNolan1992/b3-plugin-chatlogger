@@ -24,11 +24,3 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script: PYTHONPATH=extplugins nosetests --where=tests --verbosity=3
-
-notifications:
-     email:
-         recipients:
-             - vidyac.raghav@gmail.com
-             
-         on_success: change
-         on_failure: always
